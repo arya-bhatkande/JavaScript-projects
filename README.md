@@ -1,4 +1,4 @@
-# 🚀 My Portfolio Projects
+# 🚀 My Practice Projects
 
 This repository contains all of my completed web development projects, built using technologies like HTML, CSS, JavaScript, React, Node.js, and MongoDB.
 
@@ -6,14 +6,14 @@ This repository contains all of my completed web development projects, built usi
 
 ## 📁 Projects List
 
-### 1. 📝 Project Name 1
-- **Description**: Short description of what the project does.
+### 1. 📝 Calculator app
+- **Description**: a simple calculator that can do some operations like addition , subtraction , multiplication and division .
 - **Tech Stack**: HTML, CSS, JavaScript
 - **Folder**: `project1/`
 
-### 2. ✅ Project Name 2
-- **Description**: Short description of the second project.
-- **Tech Stack**: React, Node.js, Express.js, MongoDB
+### 2. ✅ Portfolio
+- **Description**: A responsive portfolio to showcase your profile.
+- **Tech Stack**: HTML, CSS, JavaScript
 - **Folder**: `project2/`
 
 ### 3. 🌐 Project Name 3
