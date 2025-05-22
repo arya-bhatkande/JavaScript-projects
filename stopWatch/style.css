@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Silkscreen:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+ 
+}
+
+h1{
+    text-align: center;
+}
+
+
+.container{
+    border: 20px solid grey;
+    margin: 50px 600px;
+    padding: 40px;
+    width: 400px;
+    border-radius: 80px;
+    background:black;
+    color: greenyellow;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.first-row{
+    display: flex;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.first-row>div{
+    padding: 5px;
+}
+.second-row{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+.second-row>div{
+    padding: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 25px 600px;
+    height: 50px;
+    font-size: 20px;
+  
+}
+
+.button button{
+    width: 80px;
+    background: grey;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.box{
+    background-color: black;
+    width: 40%;
+    min-width: 500px;
+   margin: 100px 500px;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#innerbox{
+   background: greenyellow;
+   padding: 5px 45px;
+   width: 400px;
+   margin: 5px 120px;
+   font-size: 35px;
+}

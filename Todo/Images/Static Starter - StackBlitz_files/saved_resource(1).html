@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)https://stackblitzstartersiewq2q-3lso-%2D8080-%2Df565b097.local-credentialless.webcontainer.io/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Home</title>
+    
+    <meta name="viewport" content="width=device-width">
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./script.js.download"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>About Us</h2>
+        <p>This is a random text block.</p>
+      </section>
+
+      <section>
+        <h2>Services</h2>
+        <p>We offer a variety of services.</p>
+      </section>
+
+      <footer>
+        <p>Contact Us</p>
+      </footer>
+    </main>
+  
+
+
+      <script>
+        const source = new EventSource('/livereload');
+        const reload = () => location.reload(true);
+        source.onmessage = reload;
+        source.onerror = () => (source.onopen = reload);
+        console.log('[servor] listening for file changes');
+      </script>
+    </body></html>
